@@ -1,0 +1,40 @@
+{
+  "name": "morphed-hubspot-extension-demo",
+  "projectName": "morphed-hubspot-extension-demo",
+  "srcDir": "src",
+  "uiExtensions": [
+    {
+      "name": "morphed-crm-card",
+      "target": "contact",
+      "location": "record-custom-tab",
+      "entryPoint": "src/extensions/crm-card.js"
+    },
+    {
+      "name": "morphed-sidebar-panel",
+      "target": "contact",
+      "location": "record-side-panel",
+      "entryPoint": "src/extensions/sidebar-panel.js"
+    }
+  ],
+  "scopes": [
+    "crm.objects.contacts.read",
+    "crm.objects.contacts.write",
+    "crm.objects.companies.read",
+    "crm.objects.companies.write",
+    "crm.objects.deals.read",
+    "crm.objects.deals.write",
+    "crm.objects.tasks.read",
+    "crm.objects.tasks.write",
+    "crm.objects.notes.read",
+    "crm.objects.notes.write",
+    "crm.objects.custom.read",
+    "crm.objects.custom.write",
+    "crm.schemas.custom.read",
+    "crm.schemas.custom.write",
+    "crm.extensions.cards.write",
+    "crm.timeline.events.write",
+    "automation",
+    "timeline",
+    "content"
+  ]
+}
