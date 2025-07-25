@@ -1,10 +1,9 @@
 {
   "name": "morphed-hubspot-extension-demo",
   "version": "1.0.0",
-  "description": "Demo HubSpot UI extension",
-  "main": "index.js",
+  "private": true,
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "hubspot/ui-extensions": "^1.4.0"
   }
 }
