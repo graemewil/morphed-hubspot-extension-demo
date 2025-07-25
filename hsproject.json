@@ -7,13 +7,13 @@
       "name": "morphed-crm-card",
       "target": "contact",
       "location": "record-custom-tab",
-      "entryPoint": "src/extensions/crm-card.js"
+      "entryPoint": "extensions/crm-card.js"
     },
     {
       "name": "morphed-sidebar-panel",
       "target": "contact",
       "location": "record-side-panel",
-      "entryPoint": "src/extensions/sidebar-panel.js"
+      "entryPoint": "extensions/sidebar-panel.js"
     }
   ],
   "scopes": [
