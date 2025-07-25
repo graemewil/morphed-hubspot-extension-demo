@@ -1,20 +1,17 @@
 {
-  "name": "morphed-hubspot-extension-demo",
-  "projectName": "morphed-hubspot-extension-demo",
   "platformVersion": "2025.1",
-  "srcDir": "src",
-  "uiExtensions": [
+  "extensions": [
     {
       "name": "morphed-crm-card",
-      "target": "contact",
-      "location": "record-custom-tab",
-      "entryPoint": "extensions/crm-card.js"
+      "label": "Morphed CRM Card",
+      "location": "crm.record.sidebar",
+      "endpoint": "src/extensions/crm-card.js"
     },
     {
       "name": "morphed-sidebar-panel",
-      "target": "contact",
-      "location": "record-side-panel",
-      "entryPoint": "extensions/sidebar-panel.js"
+      "label": "Morphed Sidebar Panel",
+      "location": "settings.general.primary",
+      "endpoint": "src/extensions/sidebar-panel.js"
     }
   ],
   "scopes": [
